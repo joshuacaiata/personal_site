@@ -1,0 +1,53 @@
+.card {
+    width: 80%;
+    background-color: white;
+    z-index: 1;
+    margin-top: 10em;
+    border-radius: 1.875em;
+    min-height: 28em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.hello {
+    font-size: 3em;
+    font-weight: bold;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    width: 75%;
+}
+
+.details {
+    font-size: 1em;
+    margin-left: 6em;
+    margin-top: 1em;
+    width: 70%;
+}
+
+.icons {
+    display: flex;
+    margin-left: 5.6em;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 2em;
+}
+
+.icon {
+    cursor: pointer; 
+    transition-duration: 0.3s; 
+    transition-timing-function: ease; 
+}
+
+.icon:hover {
+    transform: scale(1.25, 1.25);
+}
+
+.me {
+    width: 23.73em;
+    margin-right: 4em;
+    border-radius: 1em;
+    margin-bottom: 2em;
+    height: 113%;
+}
