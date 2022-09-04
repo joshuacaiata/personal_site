@@ -22,9 +22,11 @@ function Project(props) {
                 <button className={classes.projbutton}>
                     Live Project
                 </button>
-                <button className={classes.projbutton}>
-                    GitHub
-                </button>
+                <a href={props.obj.link} className={classes.projbutton}>
+                    <button>
+                        See Code
+                    </button>
+                </a>
             </div>
         </div>
     )

@@ -20,9 +20,11 @@ function ProjectA(props) {
                 </div>
             </div>
             <div className={classes.buttons}>
-                <button className={styles.projbutton}>
-                    GitHub
-                </button>
+                <a href={props.obj.link} download={props.obj.download} className={styles.projbutton}>
+                    <button>
+                        See Code
+                    </button>
+                </a>
             </div>
         </div>
     )

@@ -1,0 +1,119 @@
+@media screen and (min-width: 1080px) {
+    .card {
+        width: 80%;
+        background-color: white;
+        z-index: 1;
+        margin-top: 10em;
+        border-radius: 1.875em;
+        min-height: 28em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+    .hello {
+        font-size: 3em;
+        font-weight: bold;
+        margin-left: 2em;
+        margin-bottom: 0.5em;
+        width: 75%;
+    }
+    
+    .details {
+        font-size: 1em;
+        margin-left: 6em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .icons {
+        display: flex;
+        margin-left: 5.6em;
+        justify-content: space-between;
+        width: 20%;
+        margin-top: 2em;
+    }
+    
+    .icon {
+        cursor: pointer; 
+        transition-duration: 0.3s; 
+        transition-timing-function: ease; 
+    }
+    
+    .icon:hover {
+        transform: scale(1.25, 1.25);
+    }
+    
+    .mainme {
+        width: 23.73em;
+        margin-right: 4em;
+        border-radius: 1em;
+        margin-bottom: 2em;
+        height: 113%;
+    }
+
+    .otherme {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1079px) {
+    .card {
+        width: 80%;
+        background-color: white;
+        z-index: 1;
+        margin-top: 10em;
+        border-radius: 1.875em;
+        min-height: 18em;
+        margin-bottom: 2em;
+    }
+
+    .hello {
+        font-size: 2.275em;
+        font-weight: bold;
+        width: 75%;
+        margin: 0.75em auto;
+        text-align: center;
+    }
+
+    .details {
+        font-size: 1em;
+        margin: 1em auto;
+        width: 80%;
+        text-align: center;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    .icon {
+        cursor: pointer; 
+        margin: 0 0.75em;
+        transition-duration: 0.3s; 
+        transition-timing-function: ease; 
+    }
+
+    .icon:hover {
+        transform: scale(1.25, 1.25);
+    }
+
+    .mainme {
+        display: none;
+    }
+
+    .otherme {
+        width: 80%;
+        margin: 0 auto;
+        max-width: 400px;
+        border-radius: 10px;
+        margin-bottom: 2em;
+    }
+}
+
+
+/* 1080p */

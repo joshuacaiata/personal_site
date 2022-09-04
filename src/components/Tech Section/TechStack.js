@@ -1,12 +1,12 @@
 import classes from './TechStack.module.css';
-import pythonlogo from './images/pythonlogo.png';
-import clogo from './images/C++logo.png';
-import react from './images/reactlogo.png'
-import js from './images/jslogo.jpg';
-import html from './images/htmllogo.png';
-import css from './images/csslogo.png';
-import figma from './images/figmalogo.png';
-import r from './images/rlogo.png';
+import pythonlogo from '../images/pythonlogo.png';
+import clogo from '../images/C++logo.png';
+import react from '../images/reactlogo.png'
+import js from '../images/jslogo.jpg';
+import html from '../images/htmllogo.png';
+import css from '../images/csslogo.png';
+import figma from '../images/figmalogo.png';
+import r from '../images/rlogo.png';
 
 function TechStack() {
     return (

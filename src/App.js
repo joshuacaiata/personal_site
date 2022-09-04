@@ -1,6 +1,6 @@
-import TopBox from "./components/TopBox";
-import TechStack from "./components/TechStack";
-import ProjectSection from "./components/ProjectSection";
+import TopBox from './components/top section/TopBox'
+import TechStack from "./components/Tech Section/TechStack";
+import ProjectSection from "./components/Projects Section/ProjectSection";
 
 function App() {
   return (
