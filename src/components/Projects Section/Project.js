@@ -19,9 +19,11 @@ function Project(props) {
                 </div>
             </div>
             <div className={classes.buttons}>
-                <button className={classes.projbutton}>
-                    Live Project
-                </button>
+                <a href={props.obj.deploy} className={classes.projbutton}>
+                    <button>
+                        Live Project
+                    </button>
+                </a>
                 <a href={props.obj.link} className={classes.projbutton}>
                     <button>
                         See Code

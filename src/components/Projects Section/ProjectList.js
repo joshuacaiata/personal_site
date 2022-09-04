@@ -14,6 +14,7 @@ const projects = [
         skills: 'JAVASCRIPT, REACT, HTML, CSS, COMMERCE.JS, STRIPE',
         details: 'Built a small, high-end (fake) e-commerce website to learn how to use React and API’s. This site uses the commerce.js API to load the products, and uses Stripe to process payment.',
         link: 'https://github.com/joshuacaiata/revolt',
+        deploy: 'https://revolt.demo.joshuacaiata.com',
     },
     {
         name: 'Park Passport',
@@ -22,6 +23,7 @@ const projects = [
         skills: 'JAVASCRIPT, REACT, HTML, CSS',
         details: 'A ride tracker app for all of your favourite Disney theme parks! Count how many times you have been on each ride in each park. This works for all parks in the continental United States.',
         link: 'https://github.com/joshuacaiata/park-passport',
+        deploy: 'https://passport.demo.joshuacaiata.com',
     },
     {
         name: 'Personal Portfolio',
@@ -30,6 +32,7 @@ const projects = [
         skills: 'JAVASCRIPT, REACT, HTML, CSS',
         details: "This is my portfolio, the one you are viewing right now. I did all of my own custom CSS, including the CSS for the animations. The site is responsive, so it works for any screen size, including mobile devices.",
         link: 'https://github.com/joshuacaiata/personal_site',
+        deploy: 'https://google.com',
     },
     {
         name: 'Basecamp Wealth',
@@ -37,7 +40,8 @@ const projects = [
         alt: 'Basecamp Wealth',
         skills: 'PRODUCT MANAGER',
         details: 'This was a project I helped on where I was a Product Manager. I conducted market research, developed the product roadmap, wrote product requirements, and designed wireframes and prototypes for the app.',
-        link: 'https://google.com',
+        link: 'https://basecamp.demo.joshuacaiata.com',
+        deploy: 'https://google.com',
     },
     {
         name: 'Straights - Command line game',

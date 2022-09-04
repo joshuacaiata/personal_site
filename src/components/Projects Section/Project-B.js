@@ -20,7 +20,7 @@ function ProjectB(props) {
                 </div>
             </div>
             <div className={classes.buttons}>
-                <a href={props.obj.link} download={props.obj.download} className={styles.projbutton}>
+                <a href={props.obj.link} className={styles.projbutton}>
                     <button>
                         See Preview
                     </button>
