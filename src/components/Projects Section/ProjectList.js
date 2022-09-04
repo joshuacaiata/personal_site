@@ -12,7 +12,7 @@ const projects = [
         image: revolt,
         alt: 'Revolt',
         skills: 'JAVASCRIPT, REACT, HTML, CSS, COMMERCE.JS, STRIPE',
-        details: 'Built a small, high-end (fake) e-commerce website to learn how to use React and API’s. This site uses the commerce.js API to load the products, and uses Stripe to process payment.',
+        details: 'Built a small, high-end (demo) e-commerce website to learn how to use React and API’s. This site uses the commerce.js API to load the products, and uses Stripe to process payment.',
         link: 'https://github.com/joshuacaiata/revolt',
         deploy: 'https://revolt.demo.joshuacaiata.com',
     },
