@@ -5,6 +5,8 @@ import straights from '../images/straights.png';
 import compiler from '../images/compiler.png';
 import hangman from '../images/hangman.png';
 import basecamp from '../images/basecamp.png';
+import compilerfile from '../zips/compiler.zip';
+import straightsfile from '../zips/straights.zip'
 
 const projects = [
     {
@@ -49,7 +51,7 @@ const projects = [
         alt: 'Straights',
         skills: 'C++',
         details: 'This is a fun little command line card game built using object-oriented programming principles such as encapsulation, abstraction, polymorphism, and abstraction. ',
-        link: './zips/straights.zip',
+        link: straightsfile,
         download: 'straights.zip',
     },
     {
@@ -58,7 +60,7 @@ const projects = [
         alt: 'Code Compiler',
         skills: 'Racket (like LISP)',
         details: "This is a compiler for a subset of the C language that performs scanning, parsing, context-sensitive analysis, code generation, linking, and assembling.",
-        link: './zips/compiler.zip',
+        link: compilerfile,
         download: 'compiler.zip',
     },
     {
