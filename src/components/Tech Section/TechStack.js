@@ -7,6 +7,7 @@ import html from '../images/htmllogo.png';
 import css from '../images/csslogo.png';
 import figma from '../images/figmalogo.png';
 import r from '../images/rlogo.png';
+import node from '../images/nodejs.png';
 
 function TechStack() {
     return (
@@ -36,28 +37,7 @@ function TechStack() {
                             <img className={classes.cssimage} src={css} alt='CSS logo' />
                         </div>
                         <div className={classes.tickeritem}>
-                            <img className={classes.figimage} src={figma} alt='figma logo' />
-                        </div>
-                        <div className={classes.tickeritem}>
-                            <img className={classes.rimage} src={r} alt='R logo' />
-                        </div>
-                        <div className={classes.tickeritem}>
-                            <img className={classes.image} src={pythonlogo} alt='Python logo' />
-                        </div>
-                        <div className={classes.tickeritem}>
-                            <img className={classes.image} src={js} alt='JS logo' />
-                        </div>
-                        <div className={classes.tickeritem}>
-                            <img className={classes.cimage} src={clogo} alt='C++ logo' />
-                        </div>
-                        <div className={classes.tickeritem}>
-                            <img className={classes.image} src={react} alt='React logo' />
-                        </div>
-                        <div className={classes.tickeritem}>
-                            <img className={classes.image} src={html} alt='HTML logo' />
-                        </div>
-                        <div className={classes.tickeritem}>
-                            <img className={classes.cssimage} src={css} alt='CSS logo' />
+                            <img className={classes.nodeimage} src={node} alt="Node logo" />
                         </div>
                         <div className={classes.tickeritem}>
                             <img className={classes.figimage} src={figma} alt='figma logo' />
@@ -84,6 +64,9 @@ function TechStack() {
                             <img className={classes.cssimage} src={css} alt='CSS logo' />
                         </div>
                         <div className={classes.tickeritem}>
+                            <img className={classes.nodeimage} src={node} alt="Node logo" />
+                        </div>
+                        <div className={classes.tickeritem}>
                             <img className={classes.figimage} src={figma} alt='figma logo' />
                         </div>
                         <div className={classes.tickeritem}>
@@ -106,6 +89,36 @@ function TechStack() {
                         </div>
                         <div className={classes.tickeritem}>
                             <img className={classes.cssimage} src={css} alt='CSS logo' />
+                        </div>
+                        <div className={classes.tickeritem}>
+                            <img className={classes.nodeimage} src={node} alt="Node logo" />
+                        </div>
+                        <div className={classes.tickeritem}>
+                            <img className={classes.figimage} src={figma} alt='figma logo' />
+                        </div>
+                        <div className={classes.tickeritem}>
+                            <img className={classes.rimage} src={r} alt='R logo' />
+                        </div>
+                        <div className={classes.tickeritem}>
+                            <img className={classes.image} src={pythonlogo} alt='Python logo' />
+                        </div>
+                        <div className={classes.tickeritem}>
+                            <img className={classes.image} src={js} alt='JS logo' />
+                        </div>
+                        <div className={classes.tickeritem}>
+                            <img className={classes.cimage} src={clogo} alt='C++ logo' />
+                        </div>
+                        <div className={classes.tickeritem}>
+                            <img className={classes.image} src={react} alt='React logo' />
+                        </div>
+                        <div className={classes.tickeritem}>
+                            <img className={classes.image} src={html} alt='HTML logo' />
+                        </div>
+                        <div className={classes.tickeritem}>
+                            <img className={classes.cssimage} src={css} alt='CSS logo' />
+                        </div>
+                        <div className={classes.tickeritem}>
+                            <img className={classes.nodeimage} src={node} alt="Node logo" />
                         </div>
                         <div className={classes.tickeritem}>
                             <img className={classes.figimage} src={figma} alt='figma logo' />

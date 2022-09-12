@@ -66,6 +66,14 @@
         padding: 0;
         margin: 0;
     }
+
+    .nodeimage {
+        height: 3em;
+        width: 4.9em;
+        border-radius: 0;
+        padding: 0;
+        margin: -1.2em;;
+    }
     
     .tickeritem {
         width: 100%;
@@ -166,6 +174,17 @@
         margin-top: 0;
         margin-bottom: 0;
         margin-left: 1.2em;
+        margin-right: 3em;
+    }
+
+    .nodeimage {
+        height: 3em;
+        width: 4.9em;
+        border-radius: 0;
+        padding: 0;
+        margin-top: 0em;
+        margin-bottom: 0em;
+        margin-left: 1em;
         margin-right: 3em;
     }
 
