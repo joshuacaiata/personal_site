@@ -11,6 +11,9 @@
         justify-content: space-between;
     }
     
+    .info {
+        animation: fade-in 1s;
+    }
     
     .hello {
         font-size: 3em;
@@ -51,6 +54,7 @@
         border-radius: 1em;
         margin-bottom: 2em;
         height: 113%;
+        animation: fade-in 1s;
     }
 
     .otherme {
@@ -67,6 +71,10 @@
         border-radius: 1.875em;
         min-height: 18em;
         margin-bottom: 2em;
+    }
+
+    .info {
+        animation: fade-in 1s;
     }
 
     .hello {
@@ -112,8 +120,17 @@
         max-width: 400px;
         border-radius: 10px;
         margin-bottom: 2em;
+        animation: fade-in 1s;
     }
 }
 
-
-/* 1080p */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
