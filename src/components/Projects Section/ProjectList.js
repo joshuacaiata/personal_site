@@ -50,7 +50,7 @@ const projects = [
         image: straights,
         alt: 'Straights',
         skills: 'C++',
-        details: 'This is a fun little command line card game built using object-oriented programming principles such as encapsulation, abstraction, polymorphism, and abstraction. ',
+        details: 'This is a fun little command line card game built using object-oriented programming principles such as encapsulation, abstraction, polymorphism, and inheritance. ',
         link: straightsfile,
         download: 'straights.zip',
     },

@@ -1,6 +1,7 @@
 @media screen and (min-width: 1080px) {
     .card {
         width: 80%;
+        max-width: 1000px;
         background-color: white;
         z-index: 1;
         margin-top: 10em;
@@ -65,6 +66,7 @@
 @media screen and (max-width: 1079px) {
     .card {
         width: 80%;
+        max-width: 600px;
         background-color: white;
         z-index: 1;
         margin-top: 10em;
