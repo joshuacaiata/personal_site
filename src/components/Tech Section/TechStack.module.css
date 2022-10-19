@@ -1,7 +1,7 @@
 @media screen and (min-width: 1080px) {
     .container {
         width: 100%;
-        background: rgba(159, 159, 159, 0.17);
+        background: #F5F5F5;
         height: 10.41em;
         margin-top: 22em;
         margin-bottom: 6em;
@@ -109,7 +109,7 @@
 @media screen and (max-width: 1079px) {
     .container {
         width: 100%;
-        background: rgba(159, 159, 159, 0.17);
+        background: #F5F5F5;
         height: 8em;
         margin-top: 42em;
         margin-bottom: 2.5em;
