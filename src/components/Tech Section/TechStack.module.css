@@ -103,7 +103,7 @@
     }
     
     
-    .iconmove { animation: tickerh linear 180s infinite; }    
+    .iconmove { animation: tickerh linear 500s infinite; }    
 }
 
 @media screen and (max-width: 1079px) {
@@ -217,5 +217,5 @@
     }
     
     
-    .iconmove { animation: tickerh linear 180s infinite; }
+    .iconmove { animation: tickerh linear 500s infinite; }
 }
