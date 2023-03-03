@@ -22,8 +22,9 @@ function ProjectSection() {
                 <ProjectA obj={projects[4]} />
                 <ProjectA obj={projects[5]} />
             </div>
-            <div className={classes.lastrow}>
+            <div className={classes.row}>
                 <ProjectA obj={projects[6]} />
+                <ProjectA obj={projects[7]} />
             </div>
             <div className={classes.copyright}>
                 © Joshua Caiata 2022

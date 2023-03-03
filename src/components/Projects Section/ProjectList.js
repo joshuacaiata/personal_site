@@ -7,6 +7,7 @@ import hangman from '../images/hangman.png';
 import basecamp from '../images/basecamp.png';
 import compilerfile from '../zips/compiler.zip';
 import straightsfile from '../zips/straights.zip'
+import mazur from '../images/mazur.png';
 
 const projects = [
     {
@@ -18,6 +19,15 @@ const projects = [
         link: 'https://github.com/joshuacaiata/revolt',
         deploy: 'https://revolt.demo.joshuacaiata.com',
     },
+    {
+        name: 'Mazur',
+        image: mazur,
+        alt: 'Mazur',
+        skills: 'JAVASCRIPT, REACT, HTML, CSS',
+        details: "Built a random maze generator that can also solve the maze using Dijkstra's, A*, breadth-first, and depth-first search algorithms. This uses the Hunt and Kill algorithm to generate the mazes.",
+        link: 'https://github.com/joshuacaiata/mazur',
+        deploy: 'https://mazur.demo.joshuacaiata.com',
+    }, 
     {
         name: 'Park Passport',
         image: passport,
@@ -32,7 +42,7 @@ const projects = [
         image: portfolio,
         alt: 'Personal Portfolio',
         skills: 'JAVASCRIPT, REACT, HTML, CSS',
-        details: "This is my portfolio, the one you are viewing right now. I did all of my own custom CSS, including the CSS for the animations. The site is responsive, so it works for any screen size, including mobile devices.",
+        details: "This is my portfolio, the one you are viewing right now. I did all of my own custom CSS, including the CSS for the animations. The site is responsive, so it works for any screen sizes.",
         link: 'https://github.com/joshuacaiata/personal_site',
         deploy: 'https://google.com',
     },
@@ -41,7 +51,7 @@ const projects = [
         image: basecamp,
         alt: 'Basecamp Wealth',
         skills: 'PRODUCT MANAGER',
-        details: 'This was a project I helped on where I was a Product Manager. I conducted market research, developed the product roadmap, wrote product requirements, and designed wireframes and prototypes for the app.',
+        details: 'This was a project I helped on where I was a Product Manager. I conducted market research, developed the product roadmap, wrote product requirements, and the designed wireframes.',
         link: 'https://basecamp.demo.joshuacaiata.com',
         deploy: 'https://google.com',
     },
@@ -64,11 +74,11 @@ const projects = [
         download: 'compiler.zip',
     },
     {
-        name: 'Hangman - Command line game',
+        name: 'Hangman',
         image: hangman,
         alt: 'Hangman',
         skills: 'Python',
-        details: "This is a small hangman game I built when I was learning how to code. It picks a word, takes user input, and will continue until you win or lose!",
+        details: "This is a small hangman game I built when I was learning how to code. It picks a word, takes user input, and will continue until you win or lose the game!",
         link: 'https://github.com/joshuacaiata/hangman',
     }
 ]
