@@ -15,11 +15,11 @@ function ProjectSection() {
                 <Project obj={projects[1]} />
             </div>
             <div className={classes.row}>
-                <ProjectA obj={projects[2]} />
-                <ProjectB obj={projects[3]} />
+                <Project obj={projects[2]} />
+                <ProjectA obj={projects[3]} />
             </div>
             <div className={classes.row}>
-                <ProjectA obj={projects[4]} />
+                <ProjectB obj={projects[4]} />
                 <ProjectA obj={projects[5]} />
             </div>
             <div className={classes.row}>
