@@ -8,17 +8,9 @@ import basecamp from '../images/basecamp.png';
 import compilerfile from '../zips/compiler.zip';
 import straightsfile from '../zips/straights.zip'
 import mazur from '../images/mazur.png';
+import ridetimes from '../images/ridetimes.png'
 
 const projects = [
-    {
-        name: 'Revolt Fashion',
-        image: revolt,
-        alt: 'Revolt',
-        skills: 'JAVASCRIPT, REACT, HTML, CSS, COMMERCE.JS, STRIPE',
-        details: 'Built a small, high-end (demo) e-commerce website to learn how to use React and API’s. This site uses the commerce.js API to load the products, and uses Stripe to process payment.',
-        link: 'https://github.com/joshuacaiata/revolt',
-        deploy: 'https://revolt.demo.joshuacaiata.com',
-    },
     {
         name: 'Mazur',
         image: mazur,
@@ -29,13 +21,21 @@ const projects = [
         deploy: 'https://mazur.demo.joshuacaiata.com',
     }, 
     {
-        name: 'Park Passport',
-        image: passport,
-        alt: 'Park Passport',
-        skills: 'JAVASCRIPT, REACT, HTML, CSS',
-        details: 'A ride tracker app for all of your favourite Disney theme parks! Count how many times you have been on each ride in each park. This works for all parks in the continental United States.',
-        link: 'https://github.com/joshuacaiata/park-passport',
-        deploy: 'https://passport.demo.joshuacaiata.com',
+        name: 'NYC Ride Time Predictor',
+        image: ridetimes,
+        alt: 'NYC Ride Time Predictor',
+        skills: 'PYTHON, XGBOOST, K-MEANS, SCIKIT-LEARN, MATPLOTLIB',
+        details: "I did this project to learn about Data Science. I used Matplotlib to plot characteristics of the data, and used XGBoost to predict the ride times.",
+        link: 'https://github.com/joshuacaiata/NYC-Ride-Times',
+    },
+    {
+        name: 'Revolt Fashion',
+        image: revolt,
+        alt: 'Revolt',
+        skills: 'JAVASCRIPT, REACT, HTML, CSS, COMMERCE.JS, STRIPE',
+        details: 'Built a small, high-end (demo) e-commerce website to learn how to use React and API’s. Note: As of July 2023, commerce.js is not rendering images on Safari.',
+        link: 'https://github.com/joshuacaiata/revolt',
+        deploy: 'https://revolt.demo.joshuacaiata.com',
     },
     {
         name: 'Personal Portfolio',
@@ -44,7 +44,16 @@ const projects = [
         skills: 'JAVASCRIPT, REACT, HTML, CSS',
         details: "This is my portfolio, the one you are viewing right now. I did all of my own custom CSS, including the CSS for the animations. The site is responsive, so it works for any screen sizes.",
         link: 'https://github.com/joshuacaiata/personal_site',
-        deploy: 'https://google.com',
+        deploy: 'https://joshuacaiata.com',
+    },
+    {
+        name: 'Park Passport',
+        image: passport,
+        alt: 'Park Passport',
+        skills: 'JAVASCRIPT, REACT, HTML, CSS',
+        details: 'A ride tracker app for all of your favourite Disney theme parks! Count how many times you have been on each ride in each park. This works for all parks in the continental United States.',
+        link: 'https://github.com/joshuacaiata/park-passport',
+        deploy: 'https://passport.demo.joshuacaiata.com',
     },
     {
         name: 'Basecamp Wealth',
@@ -80,7 +89,7 @@ const projects = [
         skills: 'Python',
         details: "This is a small hangman game I built when I was learning how to code. It picks a word, takes user input, and will continue until you win or lose the game!",
         link: 'https://github.com/joshuacaiata/hangman',
-    }
+    },
 ]
 
 export default projects;
