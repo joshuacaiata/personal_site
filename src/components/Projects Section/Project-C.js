@@ -22,7 +22,7 @@ function ProjectC(props) {
             <div className={classes.buttons}>
                 <a href={props.obj.link} className={styles.projbutton}>
                     <button>
-                        See Code
+                        See Notebook
                     </button>
                 </a>
             </div>
