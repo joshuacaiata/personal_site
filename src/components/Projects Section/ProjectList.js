@@ -8,7 +8,8 @@ import basecamp from '../images/basecamp.png';
 import compilerfile from '../zips/compiler.zip';
 import straightsfile from '../zips/straights.zip'
 import mazur from '../images/mazur.png';
-import ridetimes from '../images/ridetimes.png'
+import ridetimes from '../images/ridetimes.png';
+import okcupid from '../images/okcupid.png';
 
 const projects = [
     {
@@ -24,9 +25,17 @@ const projects = [
         name: 'NYC Ride Time Predictor',
         image: ridetimes,
         alt: 'NYC Ride Time Predictor',
-        skills: 'PYTHON, XGBOOST, K-MEANS, SCIKIT-LEARN, MATPLOTLIB',
+        skills: 'PYTHON, XGBOOST, SCIKIT-LEARN, MATPLOTLIB, PANDAS',
         details: "I did this project to learn about Data Science. I used Matplotlib to plot characteristics of the data, and used XGBoost to predict the ride times.",
         link: 'https://github.com/joshuacaiata/NYC-Ride-Times',
+    },
+    {
+        name: 'OkCupid Predictor',
+        image: okcupid,
+        alt: 'OkCupid Predictor',
+        skills: 'PYTHON, PYTORCH, SCIKIT-LEARN, XGBOOST, MATPLOTLIB',
+        details: 'Trained various models to predict relationship statuses using an OkCupid dataset. Trained a decision tree, support vector machine (SVM), neural network, and XGBoost.',
+        link: 'https://github.com/joshuacaiata/OK-Cupid-ML'
     },
     {
         name: 'Revolt Fashion',
@@ -77,7 +86,7 @@ const projects = [
         name: 'Code Compiler',
         image: compiler,
         alt: 'Code Compiler',
-        skills: 'Racket (like LISP)',
+        skills: 'RACKET (LIKE LISP)',
         details: "This is a compiler for a subset of the C language that performs scanning, parsing, context-sensitive analysis, code generation, linking, and assembling.",
         link: compilerfile,
         download: 'compiler.zip',
@@ -86,7 +95,7 @@ const projects = [
         name: 'Hangman',
         image: hangman,
         alt: 'Hangman',
-        skills: 'Python',
+        skills: 'PYTHON',
         details: "This is a small hangman game I built when I was learning how to code. It picks a word, takes user input, and will continue until you win or lose the game!",
         link: 'https://github.com/joshuacaiata/hangman',
     },

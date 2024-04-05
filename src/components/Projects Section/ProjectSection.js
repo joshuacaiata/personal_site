@@ -16,16 +16,20 @@ function ProjectSection() {
                 <ProjectC obj={projects[1]} />
             </div>
             <div className={classes.row}>
-                <Project obj={projects[2]} />
+                <ProjectC obj={projects[2]} />
                 <Project obj={projects[3]} />
             </div>
             <div className={classes.row}>
                 <Project obj={projects[4]} />
-                <ProjectB obj={projects[5]} />
+                <Project obj={projects[5]} />
             </div>
             <div className={classes.row}>
-                <ProjectA obj={projects[6]} />
+                <ProjectB obj={projects[6]} />
                 <ProjectA obj={projects[7]} />
+            </div>
+            <div className={classes.row}>
+                <ProjectA obj={projects[8]} />
+                <ProjectA obj={projects[9]} />
             </div>
             <div className={classes.copyright}>
                 © Joshua Caiata 2022
