@@ -10,8 +10,27 @@ import straightsfile from '../zips/straights.zip'
 import mazur from '../images/mazur.png';
 import ridetimes from '../images/ridetimes.png';
 import okcupid from '../images/okcupid.png';
+import caltrack from '../images/caltrack.png';
+import codehistory from '../images/codehistory.png'
 
 const projects = [
+    {
+        name: 'CalTrack',
+        image: caltrack,
+        alt: 'CalTrack',
+        skills: 'SWIFT, SWIFTUI, SQL',
+        details: "A calorie tracker for iOS! Counts your burned calories using HealthKit to sync with Apple Health, and uses the FoodData Central API to find nutritional information for various foods.",
+        link: 'https://github.com/joshuacaiata/CalTrack',
+        deploy: 'https://apps.apple.com/us/app/caltrack/id6499473906'
+    },
+    {
+        name: 'OkCupid Predictor',
+        image: okcupid,
+        alt: 'OkCupid Predictor',
+        skills: 'PYTHON, PYTORCH, SCIKIT-LEARN, XGBOOST, MATPLOTLIB',
+        details: 'Trained various models to predict relationship statuses using an OkCupid dataset. Trained a decision tree, support vector machine (SVM), neural network, and XGBoost.',
+        link: 'https://github.com/joshuacaiata/OK-Cupid-ML'
+    },
     {
         name: 'Mazur',
         image: mazur,
@@ -30,14 +49,6 @@ const projects = [
         link: 'https://github.com/joshuacaiata/NYC-Ride-Times',
     },
     {
-        name: 'OkCupid Predictor',
-        image: okcupid,
-        alt: 'OkCupid Predictor',
-        skills: 'PYTHON, PYTORCH, SCIKIT-LEARN, XGBOOST, MATPLOTLIB',
-        details: 'Trained various models to predict relationship statuses using an OkCupid dataset. Trained a decision tree, support vector machine (SVM), neural network, and XGBoost.',
-        link: 'https://github.com/joshuacaiata/OK-Cupid-ML'
-    },
-    {
         name: 'Revolt Fashion',
         image: revolt,
         alt: 'Revolt',
@@ -45,6 +56,14 @@ const projects = [
         details: 'Built a small, high-end (demo) e-commerce website to learn how to use React and API’s. Note: As of July 2023, commerce.js is not rendering images on Safari.',
         link: 'https://github.com/joshuacaiata/revolt',
         deploy: 'https://revolt.demo.joshuacaiata.com',
+    },
+    {
+        name: 'Code History',
+        image: codehistory,
+        alt: 'Code History',
+        skills: 'SWIFT, SWIFTUI',
+        details: 'Something I built while I was learning Swift! It has a couple questions about computer science history, and it will calculate your score when you complete the quiz.',
+        link: 'https://github.com/joshuacaiata/Swift-Quiz-App'
     },
     {
         name: 'Personal Portfolio',
@@ -65,7 +84,7 @@ const projects = [
         deploy: 'https://passport.demo.joshuacaiata.com',
     },
     {
-        name: 'Basecamp Wealth',
+        name: 'Basecamp Finance',
         image: basecamp,
         alt: 'Basecamp Wealth',
         skills: 'PRODUCT MANAGER',
