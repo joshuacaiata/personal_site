@@ -36,7 +36,7 @@ function ProjectSection() {
                 <ProjectA obj={projects[11]} />
             </div>
             <div className={classes.copyright}>
-                © Joshua Caiata 2024
+                © Joshua Caiata 2025
             </div>
         </div>
     )

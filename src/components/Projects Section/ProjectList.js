@@ -88,7 +88,7 @@ const projects = [
         image: basecamp,
         alt: 'Basecamp Wealth',
         skills: 'PRODUCT MANAGER',
-        details: 'This was a project I helped on where I was a Product Manager. I conducted market research, developed the product roadmap, wrote product requirements, and the designed wireframes.',
+        details: 'This was a project I helped on where I was a Product Manager. I conducted market research, developed the product roadmap, wrote product requirements, and designed the  wireframes.',
         link: 'https://basecamp.demo.joshuacaiata.com',
         deploy: 'https://google.com',
     },

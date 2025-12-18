@@ -1,0 +1,125 @@
+@media screen and (min-width: 1080px) {
+    .container {
+        width: 80%;
+        max-width: 900px;
+        margin: 0 auto;
+        margin-bottom: 2em;
+        margin-top: 18em;
+    }
+
+    .title {
+        margin: 0 auto;
+        text-align: left;
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+
+    .entry {
+        width: 100%;
+        padding: 1.2em 1em 1.2em 0;
+        margin-bottom: 1.5em;
+        box-sizing: border-box;
+    }
+
+    .pubTitle {
+        font-size: 1.2em;
+        font-weight: 600;
+        margin-bottom: 0.25em;
+    }
+
+    .authors {
+        font-size: 0.9em;
+        color: #444;
+        margin-bottom: 0.75em;
+    }
+
+    .hr {
+        border: none;
+        border-top: 1px solid #ddd;
+        margin: 0.5em 0 0.75em 0;
+    }
+
+    .abstract {
+        color: #222;
+        line-height: 1.4;
+        margin-bottom: 1em;
+        white-space: pre-wrap;
+    }
+
+    .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 2em;
+        background: #000;
+        color: #fff;
+        padding: 0 1em;
+        text-decoration: none;
+        border-radius: 0.25em;
+    }
+}
+
+@media screen and (max-width: 1079px) {
+    .container {
+        width: 80%;
+        max-width: 425px;
+        margin: 0 auto;
+        margin-bottom: 2em;
+        margin-top: 42em;
+    }
+
+    .title {
+        margin: 0 auto;
+        text-align: left;
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+
+    .entry {
+        width: 100%;
+        padding: 1em 0 1em 0;
+        margin-bottom: 1.5em;
+        box-sizing: border-box;
+    }
+
+    .pubTitle {
+        font-size: 1.1em;
+        font-weight: 600;
+        margin-bottom: 0.25em;
+        text-align: left;
+    }
+
+    .authors {
+        font-size: 0.85em;
+        color: #444;
+        margin-bottom: 0.6em;
+        text-align: left;
+    }
+
+    .hr {
+        border: none;
+        border-top: 1px solid #ddd;
+        margin: 0.5em 0 0.75em 0;
+    }
+
+    .abstract {
+        color: #222;
+        line-height: 1.4;
+        margin-bottom: 1em;
+        white-space: pre-wrap;
+    }
+
+    .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 2em;
+        background: #000;
+        color: #fff;
+        padding: 0 1em;
+        text-decoration: none;
+        border-radius: 0.25em;
+    }
+}

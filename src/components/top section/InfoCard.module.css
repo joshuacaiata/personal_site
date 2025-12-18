@@ -1,7 +1,7 @@
 @media screen and (min-width: 1080px) {
     .card {
         width: 80%;
-        max-width: 1000px;
+        max-width: 1100px;
         background-color: white;
         z-index: 1;
         margin-top: 10em;
@@ -41,6 +41,7 @@
     
     .icon {
         cursor: pointer; 
+        margin: 0 0.75em;
         transition-duration: 0.3s; 
         transition-timing-function: ease; 
     }
