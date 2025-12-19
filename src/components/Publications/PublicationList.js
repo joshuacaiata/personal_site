@@ -8,7 +8,7 @@ const publications = [
     {
         name: 'Procedural Fairness in Multi-Agent Bandits',
         authors: 'Joshua Caiata, Carter Blair, Kate Larson',
-        abstract: 'We analyze how influence is distributed in multi-agent systems, using bandits as a test case. We show that standard optimization policies centralize control and dilute agent influence. We introduce an equal-influence framework that preserves performance across objectives with minimal efficiency loss, reframing governance as a core system design choice.\n\nNote: This is a preprint, and is currently under review at the International Conference for Autonomous Agents and Multi-Agent Systems (AAMAS) 2026.',
+        abstract: 'We analyze how influence is distributed in multi-agent systems, using bandits as a test case. We show that standard optimization policies centralize control and dilute agent influence. We introduce an equal-influence framework that preserves performance across objectives with minimal efficiency loss, reframing governance as a core system design choice.\n\nThis paper was accepted to the International Conference for Autonomous Agents and Multi-Agent Systems (AAMAS) 2026 as an extended abstract.',
         link: 'pf_bandits.pdf'
     }
 ];
